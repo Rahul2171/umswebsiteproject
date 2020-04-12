@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>university management system</title>
+<style>
+h1
+{ 
+    text-align:center;
+    text-size:80px;
+    color:blue;
+    font-family: verdana;
+}
+input
+{       font-size: 70%;
+        background-color:lightblue;
+        color:blue;
+        border:3px navyblue;
+        border-radius:6px;
+        box-shadow: 2px 2px  2px blue;
+        font-family: verdana;
+    }    
+ .div1
+  {   
+       text-shadow: 2px 3px  2px white;
+       background-color:lightblue;
+       box-shadow: 2px 2px 2px black;
+       padding: 50px;
+       border-radius:10px;
+       animation-name:demo;
+       animation-duration:4s;
+       animation-iteration-count:infinite;
+       animation-direction:reverse;
+       margin: 50px;
+       padding: 6o0px;
+       font-family: verdana;
+       height: 40%;
+       
+       
+} 
+.div2{ 
+       text-shadow: 4px 4px 2px  white;
+       background-color:lightblue;
+       box-shadow:   1px 2px  3px black;
+       border-radius:6px;
+       animation-name:demo;
+       animation-duration:4s;
+       animation-iteration-count:infinite;
+       padding: 40px;
+       font-family: verdana;
+}
+@keyframes demo {
+  0%  {background-color:hsla(120,100%,50%,0.3);}
+  25%   {background-color: hsla(120,100%,75%,0.3);}
+  50%    {background-color: hsla(120,100%,25%,0.3);}
+  100%    {background-color:  hsla(120,60%,70%,0.3);}
+
+}
+body{ background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("https://media.glassdoor.com/l/77/8a/cb/e5/administrative-blocks-and-school-of-agriculture.jpg");
+ }
+</style>
+</head>
+<body>
+<div class="div2">
+<h1>UNIVERSITY MANAGEMENT SYSTEM</h1>
+</div>
+<div class="div1">
+<form method="post" novalidate>
+<font size="5" color="blue" face="verdana">
+<fieldset>
+<legend><b>Student Information</b></legend>
+<label for="username"><b>Username:</b></label>
+<input type="text" name="input1" autofocus required><br>
+<br>
+<label for="password"><b>Password:</b></label>
+<input type="password" name="input2"  required><br>
+<br>
+<input type="submit" value="submit" formaction="CSEWB326.html">
+<input type="reset"  value="clear">
+</fieldset>
+</form>
+</div>
+</body>
+</html>
